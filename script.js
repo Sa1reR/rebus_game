@@ -6,7 +6,7 @@ var a = 0
 button.addEventListener("click", function (){
     if (task1.value == "github") {
         a++;
-        console.log(a);
+        res.value = a;
         button.setAttribute("disabled", true);
     }
     else {
